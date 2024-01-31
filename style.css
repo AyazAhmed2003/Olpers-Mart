@@ -1,0 +1,600 @@
+body{
+    padding: 0px 0px !important;
+    margin: 0px 0px !important;
+}
+
+.my-alert{
+    height: 40px;
+    color: white !important;
+    background-color: black !important;
+    
+    
+}
+
+.h6-1{
+    display: inline-block;
+    font-size: 12px;
+    color: #BBBBBB;
+    font-family: "poppins";
+    margin-left: 100px;
+    margin-top: -10px !important;    
+}
+
+.h6-2{
+    display: inline;
+    font-size: 12px;
+    color: #BBBBBB;
+    font-family: "poppins";
+    margin-left: 750px;
+}
+
+.h6-2 a{
+    display:inline-block;
+    font-size: 12px;
+    font-family: "poppins";
+    text-decoration: none;
+    color: #BBBBBB;
+}
+.h6-2 a:hover{
+    color: red;
+    text-decoration: none;
+}
+.my-alert select{
+    border: none;
+    background-color: transparent;
+    color: red;
+    margin-left: 50px;
+    
+}
+
+/* /////////////////////////nav////////// */
+.my-nav{
+    background-color: #C00B1A !important;
+    margin-top: -17px !important;
+    /* border-bottom:1px solid white !important ; */
+    margin-bottom: 2px;
+
+}
+.logo-1{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: -10px;
+
+}
+.my-ul{
+    margin-left: 500px !important;
+    
+}
+.my-ul li{
+    border-right: 1px solid white;
+}
+
+.my-ul a{
+    font-size: 16px;
+    font-family: "poppins";
+    margin-left: 10px !important;
+
+
+}
+
+.btn1{
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color:#E20018;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: "poppins";
+}
+
+
+/* /////////////////////////////bannar////////////////// */
+
+
+
+.bannar-button{
+    position: absolute;
+    margin-top: -120px !important;
+    margin-left: 700px;
+    background-color: white !important;
+    color: #E20018 !important;
+    font-family: "poppins" !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    padding: 5px 20px !important;
+    border-radius: 15px !important;
+    transition: 0.4s;
+}
+.bannar-button:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+/* ////////////////////divider//////////////////// */
+
+.divider {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    width: 1200px;
+    margin-top: 20px;
+    color: #E20018;
+    font-family: "poppins";
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 2px ;
+}
+
+  .divider::before, .divider::after {
+    flex: 1;
+    content: '';
+    padding: 3px;
+    background-color: red;
+    margin: 5px;
+  }
+
+
+  /* //////////////////// card section/////////////////////  */
+.my-card{
+    transition: 0.6s;
+    margin-left: 30px;    
+}
+
+  .my-card:hover{
+    border: 1px solid #E20018;
+    transition: 0.6s;
+
+  }
+  .my-badge{
+    position: absolute;
+    margin-top: -233px;
+}
+.my-title{
+    font-family: "poppins";
+    font-size: 13px;
+    color: black;
+    transition: 0.4s;
+}
+.my-title:hover{
+    color: #E20018;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.my-text{
+  font-size: 14px;
+  font-family: "poppins";
+  text-decoration: line-through;
+  margin-top: 30px;
+}
+
+
+.my-text span{
+    font-size: 18px;
+    font-family: "poppins";
+    font-weight: 600;
+    text-decoration: none;
+    color: #E20018;
+    text-decoration: none !important;
+    padding-left: 10px !important;
+}
+
+.btn-card1{
+    border: 1px solid #BBBBBB !important;
+    margin-top: 20px;
+    color: #BBBBBB;
+    transition: 0.4s;
+}
+.btn-card1 h6{
+    color: #BBBBBB;
+    font-size: 14px;
+    font-family: "poppins";
+    padding: 0px 10px;
+    margin: 2px 0px !important;
+}
+
+.btn-card1:hover{
+    background-color: #E20018;
+    transition: 0.4s;
+   
+}
+
+.btn-card1:hover *{
+    color: white !important;
+}
+.stars-1{
+    width: 100px;
+    position:absolute;
+    margin-left: 150px;
+    margin-top: -42px;
+}
+
+
+/* ////////////////////// 2 card ///////////////////// */
+.my-card1{
+    transition: 0.6s;
+    
+}
+
+  .my-card1:hover{
+    border: 1px solid #E20018;
+    transition: 0.6s;
+
+  }
+  .my-badge2{
+    position: absolute;
+    margin-top: -233px;
+}
+
+.my-title1{
+    font-family: "poppins";
+    font-size: 13px;
+    color: black;
+    transition: 0.4s;
+}
+.my-title1:hover{
+    color: #E20018;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.my-text1{
+  font-size: 14px;
+  font-family: "poppins";
+  text-decoration: line-through;
+  margin-top: 30px;
+}
+
+
+.my-text1 span{
+    font-size: 18px;
+    font-family: "poppins";
+    font-weight: 600;
+    text-decoration: none;
+    color: #E20018;
+    text-decoration: none !important;
+    padding-left: 10px !important;
+}
+
+.btn-card2{
+    border: 1px solid #BBBBBB !important;
+    margin-top: 20px;
+    color: #BBBBBB;
+    transition: 0.4s;
+}
+.btn-card2 h6{
+    color: #BBBBBB;
+    font-size: 14px;
+    font-family: "poppins";
+    padding: 0px 10px;
+    margin: 2px 0px !important;
+}
+
+.btn-card2:hover{
+    background-color: #04AA6D;
+    transition: 0.4s;
+   
+}
+
+.btn-card2:hover *{
+    color: #E20018 !important;
+}
+.stars-1{
+    width: 100px;
+    position:absolute;
+    margin-left: 150px;
+    margin-top: -42px;
+}
+
+/* /////////////////////2 divivder///////////////////////////////// */
+
+.divider2 {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    width: 1200px;
+    margin-top: 20px;
+    color: #E20018;
+    font-family: "poppins";
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+  .divider2::before, .divider2::after {
+    flex: 1;
+    content: '';
+    padding: 3px;
+    background-color: red;
+    margin: 5px;
+  }
+
+
+  /* ////////////////////// all products //////////////////// */
+
+
+  .my-card0{
+    /* margin-left: -10px; */
+    transition: 0.4s;
+    width: 250px !important;
+  }
+  .my-card01{
+    transition: 0.4s;
+    width: 250px !important;
+  }
+  .my-card02{
+/* margin-left: 10px !important; */
+transition: 0.4s;
+width: 250px !important;
+  }
+.my-card03{
+    /* margin-left: 20px !important; */
+    transition: 0.4s;
+    width: 250px !important;
+}
+
+.my-card0:hover{
+    border: 1px solid #E20018;
+    transition: 0.4s;
+}
+
+.my-card01:hover{
+    border: 1px solid #E20018;
+    transition: 0.4s;
+}
+.my-card02:hover{
+    border: 1px solid #E20018;
+    transition: 0.4s;
+}
+.my-card03:hover{
+    border: 1px solid #E20018;
+    transition: 0.4s;
+}
+  .my-title0{
+    font-family: "poppins";
+    font-size: 12px;
+    color: black;
+    transition: 0.4s;
+
+  }
+
+  .my-title0:hover{
+    color: #E20018;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+
+  .my-text0 del{
+    font-size: 14px;
+    font-family: "poppins";
+    font-weight: 600;
+    color: black;
+  
+   
+
+  }
+
+  .my-text0{
+    font-size: 16px;
+    font-family: "poppins";
+    font-weight: 600;
+    color: red;
+    /* margin-top: 30px !important; */
+  }
+
+  .my-btn0{
+    border: 1px solid #BBBBBB !important;
+    font-size: 14px !important;
+    font-family: "poppins";
+    color: #BBBBBB !important;
+    transition: 0.4s;
+    /* margin-top: px !important; */
+
+}
+.my-btn0:hover{
+    background-color: #E20018;
+    transition: 0.4s;
+}
+.my-btn0:hover*{
+    color: white !important;
+}
+.my-star0{
+    position:absolute;
+    margin-left: 120px;
+    margin-top: -40px;
+}
+.my-badge1{
+    position: absolute;
+    margin-top: -202px !important;
+}
+
+
+
+/* /////////////////////new page css////////////////////////////// */
+
+.bread-nav{
+
+    margin-top: 10px;
+}
+
+.bread-nav ol{
+    margin-left: 100px;
+    background-color: transparent;
+    
+}
+
+.my-li1{
+    color: #E20018 !important;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "poppins";
+}
+
+.my-li1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "poppins";
+    transition: 0.4s;
+}
+
+.my-li1 a:hover{
+    color: #E20018;
+    transition: 0.4s;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.my-alert1{
+    width: 1115px ;
+border-top: 5px solid #E20018 !important;
+    margin-left: 125px ;
+    font-size: 14px;
+    font-family:"poppins";
+    color: black;
+    font-weight: 400;
+    margin-bottom: 40px !important;
+    
+}
+
+.img-030{
+    width: 100px !important;
+    height: 70px !important;
+   margin-left: 40px !important;
+   
+}
+.thead{
+    border: none !important;
+}
+
+.my-hd th{
+    border: none !important;
+    text-align: center;
+    font-size: 14px;
+    font-family: "poppins";
+    font-weight: 600;
+}
+
+.a200ml{
+    font-size: 14px !important;
+    font-family: "poppins";
+    padding: 0px 60px !important;
+    font-weight: 600;
+    transition: 0.4s;
+    margin-top: 30px;
+    
+
+}
+
+.a200ml:hover{
+  color: #E20018;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.rs{
+    font-size: 14px;
+    font-family:"poppins" ;
+    color: black !important;
+    padding: 30px 20px !important;
+    
+}
+
+
+.rs span{
+    color: #E20018;
+    font-weight: 700;
+}
+
+
+.rs1{
+    font-size: 14px;
+    font-family: "poppins";
+    color: black;
+    padding: 30px 30px !important;
+}
+
+.rs1 span{
+    color: #E20018;
+    font-weight: 700;
+}
+
+
+.btn-update{
+   
+    background-color: #E20018 !important;
+    color: white !important;
+    font-family: "poppins" !important;
+    font-size: 16px !important;
+    padding: 10px 20px !important;
+   margin-left: 20px !important;
+    
+}
+
+.btn-update:hover{
+    background-color: transparent !important;
+    border: 1px solid #E20018 !important;
+    color: #E20018 !important;
+}
+
+.quantity-1{
+    margin-top: 25px;
+    
+}
+
+.my-input{
+    width: 80px;
+    text-align: center;
+}
+
+.del-icon{
+    font-size: 20px !important;
+    color: #BBBBBB;
+    margin: 0px 80px !important;
+    transition: 0.4s;
+   
+}
+
+
+.del-icon:hover{
+    color: #E20018;
+    cursor: pointer;
+    transition: 0.4s;
+}
